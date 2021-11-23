@@ -47,7 +47,7 @@ http://flaws2.cloud/defender.htm
    aws s3 ls s3://level1.flaws2.cloud
    ```
 
-12. Voila!
+Voila!
 
 <br><br><br>
 
