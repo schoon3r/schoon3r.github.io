@@ -144,9 +144,11 @@ aws s3 ls s3://level1.flaws2.cloud
     aws --profile 2L1V2 ecr get-download-url-for-layer --layer-digest "sha256:513e7d8a5fb9135a61159fbfbc385a4beb5ccbd84e5755d76ce923e040f9607e" --repository-name level2 --registry-id 653711331788
     ```
 
-18. Because I am evil, I wish you suffered as I did and called each one of this files... you will later find out (as I did) that you only need the one that is not a tar.gzip file...
-19. In the ocean of data inside... and once you prettify that data... you will see something curious that says password!!! hahaha... I won't spoil it... go and find it!
+18. Because I am evil, I also wish you to suffer as I have when I called each one of this files... you will later find out (as I did) that you only need the one that is not a tar.gzip file :joy: ...
+19. In the ocean of data inside that you just opened (and once you prettify that data)... you will see something curious that says password!!! hahaha... I won't spoil it... go and find it!
 20. Ok... you might be asking yourself... I have a username and a password... what next? A great man once said "when lost, it is wise to start from the beginning"
 21. That's right, there is a link from the beginning of Level 2 where you will plug that creds in.
 
 `Note:` I would like to add how proud I am with myself in performing Level2... I did this with nothing but a hint that it is using the ECR technology of AWS... everything else is based on the AWS course modules and the AWS CLI documentation. I would also like to stress the importance of reading this documentation. I think it is impossible to interact with the AWS CLI without this document.
+
+`Edit` I found that my proxy was causing the 404... there are indeed a good number of hints for Level 2... I did not retract my first NOTE because I am still proud that I did the whole Level 2 without looking at any of them.
