@@ -13,9 +13,9 @@ http://flaws2.cloud/defender.htm
 1. From the first page (dont click hint yet!) inspect the form using your browser's developer tools. You will see that the html form tag actually contains the API link where the form values will be submitted.
 2. Use the link that you found and pass on the code value
 
-```
-link?code=1234
-```
+   ```
+   link?code=1234
+   ```
 
 3. While I tried this should be the right way of things... I felt cheated as you will NEVER gonna get to the right link unless you've clicked the hint.
 4. Click the hint. Read the statement CAREFULLY!!!
@@ -43,9 +43,9 @@ link?code=1234
 10. While I did say to do it, I just realised that you dont need it to view the directory content of the S3 bucket.
 11. View the bucket using:
 
-```
-aws s3 ls s3://level1.flaws2.cloud
-```
+   ```
+   aws s3 ls s3://level1.flaws2.cloud
+   ```
 
 12. Voila!
 
