@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Another page
+description: This is just another page
 ---
 
 # Devel
@@ -210,3 +212,6 @@ layout: default
 7. Installed mingw to compile the C code into an executable program and thankfully the command to complile is already provided in the link.
 8. We then started a simple http server so can transfer the file into the machine and downloaded the file using a powershell script.
 9. After this, we found that we now have root priv.
+
+
+[back](./)
