@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Devel
 
 `nmap` | `privesc` | `ftp` | `reverse shell to aspx webserver` | `file transfer`
