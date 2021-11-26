@@ -1,8 +1,12 @@
-# `Defender Track`
+---
+layout: default
+title: FLAWS 2
+description: by FLAWS.CLOUD | SUMMIT ROUTE
+---
 
-http://flaws2.cloud/defender.htm
-
-<br><br><br>
+<h3 align="center">
+A sequel to flaws.cloud, this one reinforced the foundation that I learned in Flaws 1 and more!
+</h3>
 
 # `Attacker Track`
 
@@ -152,3 +156,7 @@ aws s3 ls s3://level1.flaws2.cloud
 `Note:` I would like to add how proud I am with myself in performing Level2... I did this with nothing but a hint that it is using the ECR technology of AWS... everything else is based on the AWS course modules and the AWS CLI documentation. I would also like to stress the importance of reading this documentation. I think it is impossible to interact with the AWS CLI without this document.
 
 `Edit` I found that my proxy was causing the 404... there are indeed a good number of hints for Level 2... I did not retract my first NOTE because I am still proud that I did the whole Level 2 without looking at any of them.
+
+<br><br>
+
+[back to HOME](./)

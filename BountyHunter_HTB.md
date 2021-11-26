@@ -1,4 +1,20 @@
-# `Bounty Hunter`
+---
+layout: default
+title: BOUNTY HUNTER
+description: by Hack The Box
+---
+
+<h3 align="center">
+BountyHunter is a linux machine that can be attack by getting a foothold on its webapp service.
+</h3>
+
+`Web Fuzzing`
+`XXE`
+`Linux`
+`Web`
+`Python`
+`Source Code Review`
+`Sudo Exploitation`
 
 ## Enumeration
 
@@ -314,3 +330,7 @@ Reference:
 2. https://github.com/payloadbox/xxe-injection-payload-list
 3. https://portswigger.net/web-security/xxe
 4. https://www.youtube.com/watch?v=gjm6VHZa_8s
+
+<br><br>
+
+[back to HOME](./)

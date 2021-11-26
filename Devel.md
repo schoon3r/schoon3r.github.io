@@ -3,9 +3,18 @@ layout: default
 title: DEVEL
 description: by Hack The Box
 ---
+
 <h3 align="center">
-This is quick walkthrough on how I've managed to root the retired devel machine from HTB
+This is quick walkthrough on how I've managed to root the retired devel machine from HTB. It's a Windows 7 machine that has an unpatched vulnerability.
 </h3>
+
+`Web Fuzzing`
+`XXE`
+`Linux`
+`Web`
+`Python`
+`Source Code Review`
+`Sudo Exploitation`
 
 ## Enumeration
 
@@ -212,5 +221,6 @@ This is quick walkthrough on how I've managed to root the retired devel machine 
 8. We then started a simple http server so can transfer the file into the machine and downloaded the file using a powershell script.
 9. After this, we found that we now have root priv.
 
+<br><br>
 
-[back](./)
+[back to HOME](./)

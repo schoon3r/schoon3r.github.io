@@ -1,3 +1,13 @@
+---
+layout: default
+title: FLAWS 1
+description: by FLAWS.CLOUD | SUMMIT ROUTE
+---
+
+<h3 align="center">
+This is a very good learning platform for understanding misconfigurations within the AWS technology
+</h3>
+
 # Level 1
 
 ```
@@ -199,6 +209,7 @@ aws --profile WHATEVER s3 ls s3://level6-cc4c404a8a8b876167f5e70a7d8c9880.flaws.
 ```
 
 You will then see that there are only two pages inside this bucket, one is the index.html and the other is??? what??? You do the math!
-<br><br><br>
 
-# Level 6
+<br><br>
+
+[back to HOME](./)
