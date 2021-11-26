@@ -15,12 +15,28 @@ description: This is a record of my attempts in trying to be good at the game
 
 <br />
 
-# Hack The Box (HTB) [Devel](https://schoon3r.github.io/Devel.html)
+# Hack The Box (HTB)
+
+[Devel](https://schoon3r.github.io/Devel.html)
+
 [BountyHunter](https://schoon3r.github.io/bountyhunter_htb.html)
+
 [HorizontALL](https://schoon3r.github.io/horizantall_htb.html)
+
 [Lame](https://schoon3r.github.io/lame_htb.html)
-[Legacy](https://schoon3r.github.io/legacy_htb.html) # Try Hack Me (THM)
-[VulnVersity](https://schoon3r.github.io/vulnversity_thm.html) # FLAWS.CLOUD
-[Flaws 1](https://schoon3r.github.io/flaws_cloud.html) [Flaws 2 - Attacker
-Track](https://schoon3r.github.io/flaws2_attacker.html) # PROVING GROUNDS /
-VULNHUB [Cybersploit 1](https://schoon3r.github.io/cybersploit1.html)
+
+[Legacy](https://schoon3r.github.io/legacy_htb.html)
+
+# Try Hack Me (THM)
+
+[VulnVersity](https://schoon3r.github.io/vulnversity_thm.html)
+
+# FLAWS.CLOUD
+
+[Flaws 1](https://schoon3r.github.io/flaws_cloud.html)
+
+[Flaws 2 - Attacker Track](https://schoon3r.github.io/flaws2_attacker.html)
+
+# PROVING GROUNDS / VULNHUB
+
+[Cybersploit 1](https://schoon3r.github.io/cybersploit1.html)
