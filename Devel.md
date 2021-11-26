@@ -1,12 +1,10 @@
 ---
 layout: default
-title: Another page
-description: This is just another page
+title: DEVEL
+description: by Hack The Box
 ---
 
-# Devel
-
-`nmap` | `privesc` | `ftp` | `reverse shell to aspx webserver` | `file transfer`
+### This is quick walkthrough on how I've managed to root the retired devel machine from HTB
 
 ## Enumeration
 
