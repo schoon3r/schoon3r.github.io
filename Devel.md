@@ -3,8 +3,9 @@ layout: default
 title: DEVEL
 description: by Hack The Box
 ---
-
+<p align="center">
 ### This is quick walkthrough on how I've managed to root the retired devel machine from HTB
+</p>
 
 ## Enumeration
 
