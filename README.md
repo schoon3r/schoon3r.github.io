@@ -2,4 +2,4 @@
 
 # Hack The Box
 
-[Devel](https://github.com/schoon3r/schoon3r.github.io/Devel.md)
+[Devel](https://schoon3r.github.io/Devel.md)
