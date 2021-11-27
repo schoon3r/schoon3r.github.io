@@ -22,6 +22,8 @@ description: This is a record of my attempts in trying to be good at the game
 
 [Legacy](https://schoon3r.github.io/legacy_htb.html)
 
+[Blue](https://schoon3r.github.io/blue_htb.html)
+
 # Try Hack Me (THM)
 
 [VulnVersity](https://schoon3r.github.io/vulnversity_thm.html)
