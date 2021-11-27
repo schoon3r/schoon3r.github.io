@@ -12,17 +12,13 @@ description: This is a record of my attempts in trying to be good at the game
 
 # Hack The Box (HTB)
 
-[Devel](https://schoon3r.github.io/Devel.html)
-
-[BountyHunter](https://schoon3r.github.io/bountyhunter_htb.html)
-
-[HorizontALL](https://schoon3r.github.io/horizantall_htb.html)
-
-[Lame](https://schoon3r.github.io/lame_htb.html)
-
-[Legacy](https://schoon3r.github.io/legacy_htb.html)
-
-[Blue](https://schoon3r.github.io/blue_htb.html)
+| Windows                                          | Linux                                                            |
+| ------------------------------------------------ | ---------------------------------------------------------------- |
+| [Lame](https://schoon3r.github.io/lame_htb.html) | [Devel](https://schoon3r.github.io/Devel.html)                   |
+|                                                  | [BountyHunter](https://schoon3r.github.io/bountyhunter_htb.html) |
+|                                                  | [HorizontALL](https://schoon3r.github.io/horizantall_htb.html)   |
+|                                                  | [Legacy](https://schoon3r.github.io/legacy_htb.html)             |
+|                                                  | [Blue](https://schoon3r.github.io/blue_htb.html)                 |
 
 # Try Hack Me (THM)
 
@@ -37,3 +33,5 @@ description: This is a record of my attempts in trying to be good at the game
 # PROVING GROUNDS / VULNHUB
 
 [Cybersploit 1](https://schoon3r.github.io/cybersploit1.html)
+
+# VULNHUB
