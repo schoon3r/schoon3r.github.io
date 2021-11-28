@@ -1,4 +1,14 @@
-# Legacy
+---
+layout: default
+title: LEGACY
+description: by Hack The Box
+---
+
+<h3 align="center">
+Linux Machine
+</h3>
+
+# Enumeration
 
 Legacy is a Windows XP machine that has a vulnerability in the microsoft-ds services
 
@@ -100,3 +110,7 @@ Legacy is a Windows XP machine that has a vulnerability in the microsoft-ds serv
 # Reference
 
 1. https://www.rapid7.com/db/modules/exploit/windows/smb/ms08_067_netapi/
+
+<br><br>
+
+[back to HOME](./)

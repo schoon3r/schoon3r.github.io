@@ -1,3 +1,13 @@
+---
+layout: default
+title: VULNVERSITY
+description: by TRY HACK ME
+---
+
+<h3 align="center">
+This is the first path in to learning when jumping on the THM platform.
+</h3>
+
 # Vulnversity
 
 1. Deploy the machine should be straight forward
@@ -89,3 +99,7 @@
 2. https://gtfobins.github.io/gtfobins/systemctl
 3. https://www.youtube.com/watch?v=WgTL7KM44YQ
 4. https://www.youtube.com/watch?v=nC9D1ES-nmo
+
+<br><br>
+
+[back to HOME](./)

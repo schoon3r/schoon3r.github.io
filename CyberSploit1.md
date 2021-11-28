@@ -1,7 +1,7 @@
 ---
 layout: default
 title: CYBERSPLOIT 1
-description: by VULNHUB / PROVING GROUNDS
+description: by PROVING GROUNDS
 ---
 
 <h3 align="center">

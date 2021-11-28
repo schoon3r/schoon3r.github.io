@@ -1,8 +1,12 @@
-# `Lame`
+---
+layout: default
+title: LAME
+description: by Hack The Box
+---
 
-Hack the Box
-
-<br><br><br>
+<h3 align="center">
+Windows machine
+</h3>
 
 ## Enumeration
 
@@ -170,3 +174,7 @@ Hack the Box
 
 1. https://www.exploit-db.com/exploits/49757
 2. https://www.exploit-db.com/exploits/16320
+
+<br><br>
+
+[back to HOME](./)

@@ -1,6 +1,12 @@
-# HorizontAll
+---
+layout: default
+title: HORIZONTALL
+description: by Hack The Box
+---
 
-Hack the Box - Linux Machine
+<h3 align="center">
+This one is a linux box. I'm quite amazed at this because early on during enumeration I found that two different tools provided different results even after using the same wordlist.
+</h3>
 
 # Enumeration
 
@@ -304,3 +310,7 @@ Hack the Box - Linux Machine
 2. https://legalhackers.com/videos/Nginx-Exploit-Deb-Root-PrivEsc-CVE-2016-1247.html
 3. https://www.getkandg.com/2021/09/horizontall-htb-walkthrough-horizontall.html
 4. https://github.com/nth347/CVE-2021-3129_exploit
+
+<br><br>
+
+[back to HOME](./)
