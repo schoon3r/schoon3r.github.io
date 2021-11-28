@@ -17,7 +17,7 @@ description: Gamified Learning
 | [Lame](https://schoon3r.github.io/lame_htb.html)       | [Devel](https://schoon3r.github.io/Devel.html)                   |
 | [Jerry](https://schoon3r.github.io/jerry_htb.html)     | [BountyHunter](https://schoon3r.github.io/bountyhunter_htb.html) |
 | [Optimum](https://schoon3r.github.io/optimum_htb.html) | [HorizontALL](https://schoon3r.github.io/horizontall_htb.html)   |
-|                                                        | [Legacy](https://schoon3r.github.io/legacy_htb.html)             |
+| [GrandPa](https://schoon3r.github.io/granpa.html)      | [Legacy](https://schoon3r.github.io/legacy_htb.html)             |
 |                                                        | [Blue](https://schoon3r.github.io/blue_htb.html)                 |
 
 # Try Hack Me (THM)
