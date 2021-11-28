@@ -5,7 +5,7 @@ description: by Hack The Box
 ---
 
 <h3 align="center">
-Optimum is a machine that has the Rejetto HttpFileServer vulnerability CVE-2014-6287
+Optimum is a machine that has the Rejetto HttpFileServer vulnerability CVE-2014-6287 to get a foothold of the system and privesc to root using another vulnerability within the operating system of the server.
 </h3>
 
 # Enumeration
@@ -268,6 +268,13 @@ Optimum is a machine that has the Rejetto HttpFileServer vulnerability CVE-2014-
 <br><br>
 
 # Reference
+
+1. https://www.rapid7.com/db/modules/exploit/windows/http/rejetto_hfs_exec/
+2. https://www.exploit-db.com/exploits/39161
+3. https://www.exploit-db.com/exploits/39719
+4. https://github.com/AonCyberLabs/Windows-Exploit-Suggester/issues/43
+5. https://www.exploit-db.com/exploits/41020
+6. https://alamot.github.io/optimum_writeup/
 
 <br><br>
 
