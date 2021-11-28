@@ -8,8 +8,6 @@ description: by Hack The Box
 
 </h3>
 
-<br><br>
-
 # Enumeration
 
 # FootHold
