@@ -34,7 +34,7 @@ Prepended the domain name with the bucket name as due AWS to documentation, ever
 
 Verified that: flaws.cloud.s3-website-us-west-2.amazonaws.com does indeed go to the flaws.cloud website
 
-So, going into flaws.cloud.s3.amazonaws.com takes you to a site that gives you the bucket content in an XML data format. One of the json keys is a "very interesting page" to say the least. Append that to end of the current url and voila!
+So, going into flaws.cloud.s3.amazonaws.com takes you to a site that gives you the bucket content in an XML data format. One of the json keys is a "very interesting page" to say the least. Append that to the end of the current URL and voila!
 <br><br><br>
 
 # Level 2
@@ -43,9 +43,9 @@ So, going into flaws.cloud.s3.amazonaws.com takes you to a site that gives you t
 http://level2-c8b217a33fcf1f839f6f1f73a00a9ae7.flaws.cloud/
 ```
 
-The default hint is the "you will need your own AWS account for this". So this should tell you that this will happen within the AWS environment (although full disclaimer I did hit upto Hint2 to get to the Flag). The steps below demostrates commands I've used within Kali's terminal, in hind sight though... would have been a lot easier if I've done it within my AWS CloudShell.
+The default hint is the "you will need your own AWS account for this". So this should tell you that this will happen within the AWS environment (although full disclaimer I did hit up to Hint2 to get to the Flag). The steps below demostrate commands I've used within Kali's terminal, in hindsight though... would have been a lot easier if I've done it within my AWS CloudShell.
 
-From Kali terminal, configure your aws cli
+From Kali terminal, configure your AWS CLI
 
 ```
 aws configure
@@ -58,7 +58,7 @@ Once configured, you can start traversing the Level2 bucket with:
 aws s3 ls s3://level2-c8b217a33fcf1f839f6f1f73a00a9ae7.flaws.cloud/
 ```
 
-Using the last step in Level1, One of the content is a "very interesting html page". Append that to end of the current url and voila!
+Using the last step in Level1, One of the content is a "very interesting html page". Append that to the end of the current url and voila!
 
 ## Pivot to CloudShell
 
@@ -84,7 +84,7 @@ Well first step, lets grab the content of this level
 aws s3 ls s3://level3-9afd3927f195e10225021a578e6f78df.flaws.cloud/
 ```
 
-The output shows a hidden folder named .git, so version control is 'enabled' in this bucket. After hours of googling, I found that I need to copy folder so I can see the older version of the files.
+The output shows a hidden folder named .git, so version control is 'enabled' in this bucket. After hours of googling, I found that I need to copy the folder so I can see the older version of the files.
 
 ```
 aws s3 sync s3://level3-9afd3927f195e10225021a578e6f78df.flaws.cloud ~/Documents/Level3
@@ -131,7 +131,7 @@ Wow! We have all of it till Level6 hahaha! But let's be a good boy and just go t
 # Level 4
 
 Ok... after 7.5hrs, I've finished Level 4. Here is how I did it.
-Level 4 lives in an EC2 instance (yep! new learning curve). With the same credentials from Level 3 grab the snapshot credentials of this EC2 instanance.
+Level 4 lives in an EC2 instance (yep! new learning curve). With the same credentials from Level 3 grab the snapshot credentials of this EC2 instance.
 
 Step 1: Configure AWS CLi
 
@@ -154,7 +154,7 @@ aws ec2 describe-snapshots --owner-id 975426262029
 
 After this, it's a long walk teaching myself to launch an EC2 instance using this snapshot information. But here are the steps:
 
-1. From your own AWS EC2 Cloudshell, create a volume which is a copy of the snapshot you just found.
+1. From your own AWS EC2 Cloudshell, create a volume that is a copy of the snapshot you just found.
 
 ```
 aws ec2 create-volume --availability-zone us-west-2a --region us-west-2  --snapshot-id  snap-0b49342abd1bdcb89
@@ -164,7 +164,7 @@ aws ec2 create-volume --availability-zone us-west-2a --region us-west-2  --snaps
 3. In your EC2 console, go to volume. From the volume you've just created, create a new snapshot of that volume.
 4. Go to your Snapshots > and then create an image from that snapshot
 5. Go to AMIs > and then launch an instance using that image. Just use default free tier values.
-6. Important! ~ before the end, in Step 6: Configure Security Group"... make sure to create your own SSH keys so you can login into this instanace. Download that shit and save that baby for later.
+6. Important! ~ before the end, in Step 6: Configure Security Group"... make sure to create your own SSH keys so you can login into this instance. Download that shit and save that baby for later.
 7. Connect to your instance using your own terminal (not the AWS cloudshell)
 8. traverse the directors (ls), and then...
 
@@ -178,15 +178,15 @@ cat setupNginx.sh
 # Level 5
 
 Can't believe it only took me 2hrs for this one. Must be credit to the time spent in Level4 hahaha.
-The aim of this level is to traverse proxy doamins that points to the same ec2 instance. Hint1 provided a crucial information about RFC-3927 of the instance metadata (oh thank go I paid attention to Stephane Maarek's course). This info in hand, I know that I am looking for metadata from all these proxy sites.
+The aim of this level is to traverse proxy domains that points to the same ec2 instance. Hint1 provided a crucial information about RFC-3927 of the instance metadata (oh thank go I paid attention to Stephane Maarek's course). This info in hand, I know that I am looking for metadata from all these proxy sites.
 
-This is actually the bulk of the time spent in this level. Level 5 has 3 proxies and each have a lot of folders.
+This is actually the bulk of the time spent at this level. Level 5 has 3 proxies and each has a lot of folders.
 
-Eventually you will find an IAM folder in http://4d0cf09b9b2d761a7d87be99d17507bce8b86f3b.flaws.cloud, dig in a litte deeper and you will find NEW creds with a session token.
+Eventually, you will find an IAM folder in http://4d0cf09b9b2d761a7d87be99d17507bce8b86f3b.flaws.cloud, dig in a little deeper and you will find NEW creds with a session token.
 
 ! important ~ you need to be in the EC2 instance while doing all this. If that is vague for you - fucken SSH into the instance using your Level4 creds.
 
-Rabbit hole alert - I have the creds but i keep getting auth errors... time for hint 2!
+Rabbit hole alert - I have the creds but I keep getting auth errors... time for hint 2!
 
 Aha! you cant just do a
 
