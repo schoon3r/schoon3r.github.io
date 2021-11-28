@@ -30,7 +30,7 @@ description: This is a record of my attempts in trying to be good at the game
 
 [Flaws 2 - Attacker Track](https://schoon3r.github.io/flaws2_attacker.html)
 
-# PROVING GROUNDS / VULNHUB
+# PROVING GROUNDS
 
 [Cybersploit 1](https://schoon3r.github.io/cybersploit1.html)
 
