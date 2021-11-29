@@ -258,7 +258,7 @@ This one is a linux box. I'm quite amazed at this because early on during enumer
     Last login: Fri Jun  4 11:29:42 2021 from 192.168.1.15
     ```
 
-    - Now we just follow the exploit commands from the github of that link
+    - Now we just follow the exploit commands from the github link
 
     ```
     ┌──(schoon3r㉿nexer)-[~/Engagements/HTB]
