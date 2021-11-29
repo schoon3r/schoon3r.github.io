@@ -8,7 +8,7 @@ description: by FLAWS.CLOUD | SUMMIT ROUTE
 A sequel to flaws.cloud, this one reinforced the foundation that I learned in Flaws 1 and more!
 </h3>
 
-# `Attacker Track`
+# Attacker Track
 
 <br>
 
