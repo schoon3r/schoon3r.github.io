@@ -3,7 +3,7 @@ layout: default
 title: schoon3r
 description: Gamified Learning
 ---
-
+ 
 <h3 align="center">
   I've listed (and continually listing) all the machines and that I've rooted in this Github page with a POC of how I did it in the hopes that it would help someone who is starting in the game. I know I needed these kinds of write-ups during the start of my journey and here is my way of giving back the same opportunity afforded to me. <br><br> While my write up is not very graphic, I've detailed the commands and steps I've used to ensure that you can recreate my steps towards the same output.
 </h3>
