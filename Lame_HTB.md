@@ -1,6 +1,6 @@
 ---
 layout: default
-title: LAME
+title: Lame
 description: by Hack The Box
 ---
 
