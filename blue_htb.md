@@ -5,7 +5,7 @@ description: by HACK THE BOX
 ---
 
 <h3 align="center">
-Blue is a Windows 7 machine that has a the infamous Eternal Blue vulnerability
+Blue is a Windows 7 machine that has the infamous Eternal Blue vulnerability
 </h3>
 
 # Enumeration

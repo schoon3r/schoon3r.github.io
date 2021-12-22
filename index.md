@@ -19,6 +19,7 @@ description: Gamified Learning
 | [Optimum](https://schoon3r.github.io/optimum_htb.html) | [Legacy](https://schoon3r.github.io/legacy_htb.html)             |     |     |
 | [GrandPa](https://schoon3r.github.io/granpa.html)      | [Blue](https://schoon3r.github.io/blue_htb.html)                 |     |     |
 |                                                        | [Buckets - AWS](https://schooner.github.io/buckets_htb.html)     |     |     |
+|                                                        | [Nibbles](https://schooner.github.io/nibbles_htb.html)           |     |     |
 
 # Try Hack Me (THM)
 
