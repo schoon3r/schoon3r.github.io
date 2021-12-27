@@ -41,7 +41,7 @@ description: Gamified Learning
 
 ## Completed Learning Modules
 
-| Hack the Box                                                                               | Try Hack Me                                        |
+| Hack the Box - Academy                                                                     | Try Hack Me                                        |
 | ------------------------------------------------------------------------------------------ | -------------------------------------------------- |
 | [Getting Started](https://academy.hackthebox.eu/achievement/74398/77)                      | [Advent of Cyber 2021](/images/THM-SJNXY0CYHI.png) |
 | [Web Requests](https://academy.hackthebox.eu/achievement/74398/35)                         |                                                    |
@@ -54,3 +54,4 @@ description: Gamified Learning
 | [Linux Fundamentals](https://academy.hackthebox.com/achievement/74398/18)                  |                                                    |
 | [Cracking Passwords with Hashcat](https://academy.hackthebox.com/achievement/74398/20)     |                                                    |
 | [File Inclusion/Directory Traversal](https://academy.hackthebox.com/achievement/74398/23)  |                                                    |
+| [File Transfers](https://academy.hackthebox.com/achievement/74398/24)                      |                                                    |
