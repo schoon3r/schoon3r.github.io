@@ -52,3 +52,4 @@ description: Gamified Learning
 | [Attacking Web Applications with FFUF](https://academy.hackthebox.eu/achievement/74398/54) |                                                    |
 | [Login Brute Forcing](https://academy.hackthebox.eu/achievement/74398/57)                  |                                                    |
 | [Linux Fundamentals](https://academy.hackthebox.com/achievement/74398/18)                  |                                                    |
+| [Cracking Passwords with Hashcat](https://academy.hackthebox.com/achievement/74398/20)     |                                                    |
