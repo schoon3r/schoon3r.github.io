@@ -53,3 +53,4 @@ description: Gamified Learning
 | [Login Brute Forcing](https://academy.hackthebox.eu/achievement/74398/57)                  |                                                    |
 | [Linux Fundamentals](https://academy.hackthebox.com/achievement/74398/18)                  |                                                    |
 | [Cracking Passwords with Hashcat](https://academy.hackthebox.com/achievement/74398/20)     |                                                    |
+| [File Inclusion/Directory Traversal](https://academy.hackthebox.com/achievement/74398/23)  |                                                    |
